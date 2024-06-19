@@ -1,0 +1,60 @@
+<!-- simpe Html form refrence from ws school -->
+<html>
+  <head>
+    <title>Form Using HTML</title>
+  </head>
+  <body>
+    <div>
+      <!--it is a container or block with its help we apply css as a class or id etc... -->
+      <fieldset>
+        <legend>Simple Form</legend>
+
+        Name:
+        <input
+          type="text"
+          name="name"
+          placeholder="Enter User name"
+          valu=""
+          required=""
+        />
+        <br/>
+        <br/>
+        Email Id:
+        <input
+          type="text"
+          name="Email id"
+          placeholder="Enter User Emaiid"
+          valu=""
+          required=""
+        />
+        <br/>
+        <br/>
+        colour:
+        <input type="color" name="color" value="" />
+        <br/>
+        <br/>
+        Hobbies:<!--we use checkbox for multiple secltion -->
+        <input type="checkbox" name="Hobbies []" /> Dancing
+        <input type="checkbox" name="Hobbies []" /> Singing
+        <input type="checkbox" name="Hobbies []" /> Cooking
+        <br/>
+        <br/>
+        Gender:
+        <input type="radio" name="Gender" value="" />Male
+        <input type="radio" name="Gender" value="" />Female
+        <input type="radio" name="Gender" value="" />Other
+        <br/>
+        <br/>
+        Age:
+        <input type="number" name="age" min="1" max="60" />
+        <br/>
+        <br/>
+        range: <input type="range" value="" name="range"/>
+        <br/>
+        <br/>
+        <input type="submit" name="submit" value="submit"/>
+        <input type="submit" name="clear" value="clear"/>
+      </fieldset>
+    </div>
+  </body>
+</html>
