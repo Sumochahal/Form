@@ -1,50 +1,159 @@
 <html>
-    <head>
-        <title>Survey Form</title>
-    </head>
-    <body>
-        <div border="5" align="centre">
-          <fieldset>
-            <legend> Survey Form</legend>
-            Name:
-            <input type="text" name="name" value="" placeholder="Enter name by user"/>
-            <br/>
-            <br/>
-            Emai Id:
-            <input type="text" name="email id" value="" placeholder="Enter email by user"/>
-            <br/>
-            <br/>
-            contact No:
-            <input type="number" name="name" max="12"/>
-            <br/>
-            <br/>
-            <label>If Your are Player choose Game:</label> 
-            <select>
-              <option value="Cricket">Cricket</option>
-              <option value="Cricket">Hockey</option>
-              <option value="Cricket">Football</option>
-            </select>
-            <br/>
-            <br/>
-            <label>If Your are Govt. Employee:</label>
-            <br/>
-            <br/>
-            <label>If Your are private Employee:</label>
-            <br/>
-            <br/>
-            <label>If Your are Agriculture dept.:</label>
-            <br/>
-            <br/>
-            <label>If You are students:</label>
-            <br/>
-            <br/>
-            <label>If You are other</label> <!--  salary..... -->
-            <br/>
-            <br/>
-            <input type="submit" name="submit" value="submit"/>
-            <input type="submit" name="clear" value="clear"/>
-          </fieldset>>
-
-        </div>
-    </body>
+  <head>
+    <title>Survey Form by Suman Chahal</title>
+  </head>
+  <body>
+    <div>
+      <fieldset>
+        <legend>Survey Form</legend>
+        Name:
+        <input
+          type="text"
+          name="name"
+          value=""
+          placeholder="Enter name by user"
+        />
+        <br />
+        <br />
+        Emai Id:
+        <input
+          type="text"
+          name="email id"
+          value=""
+          placeholder="Enter email by user"
+        />
+        <br />
+        <br />
+        contact No:
+        <input type="number" name="name" max="12" placeholder="10 digits No." />
+        <br />
+        <br />
+        <label>If are you players choose Game:</label>
+        <select>
+          <option value="Select">Select</option>
+          <option value="Cricket">Cricket</option>
+          <option value="Hockey">Hockey</option>
+          <option value="Football">Football</option>
+          <option value="etc">etc..</option>
+        </select>
+        <br />
+        <br />
+        <label>Select their salery</label>
+        <select>
+          <option value="Salery">Salery</option>
+          <option value="above 30k">above 30k</option>
+          <option value="above 40k">above 40k</option>
+          <option value="above 50k">above 50k</option>
+          <option value="below 1Lakh">below 1Lakh</option>
+        </select>
+        <br />
+        <br />
+        <label>If Your are Govt. Employee:</label>
+        <select>
+          <option value="Select">Select</option>
+          <option value="CDS">CDS</option>
+          <option value="Navi">Navi</option>
+          <option value="Teachers">Teachers</option>
+          <option value="Patwari">Patwari</option>
+          <option value="etc">etc..</option>
+        </select>
+        <br />
+        <br />
+        <label>Select their salery</label>
+        <select>
+          <option value="Salery">Salery</option>
+          <option value="above 25k">above 25k</option>
+          <option value="above 35k">above 35k</option>
+          <option value="above 45k">above 45k</option>
+          <option value="below 95k">below 95k</option>
+        </select>
+        <br />
+        <br />
+        <label>If Your are private Employee:</label>
+        <select>
+          <option value="Select">Select</option>
+          <option value="Developer">Developer</option>
+          <option value="Sr.Developer">Sr.Developer</option>
+          <option value="Team Leader">Team Leader</option>
+          <option value="Lab Assistant">Lab Assistant</option>
+          <option value="Accountant">Accountant</option>
+          <option value="Content Writer">Content Writer</option>
+          <option value="etc">etc..</option>
+        </select>
+        <br />
+        <br />
+        <label>Select their salery</label>
+        <select>
+          <option value="Salery">Salery</option>
+          <option value="above 50k">above 50k</option>
+          <option value="above 70k">above 70k</option>
+          <option value="above 90k">above 90k</option>
+          <option value="above 1Lakh">above 1Lakh</option>
+          <option value="above 2Lakhs">above 2Lakhs</option>
+          <option value="below 3Lakhs">below 3Lakhs</option>
+        </select>
+        <br />
+        <br />
+        <label>If Your are Agriculture dept.:</label>
+        <select>
+          <option value="Select">Select</option>
+          <option value="Land Owner">Land owner</option>
+          <option value="Land Buyer">Land Buyer</option>
+        </select>
+        <br />
+        <br />
+        <label>Select their salery per year</label>
+        <select>
+          <option value="Salery">Salery</option>
+          <option value="More than 1Lakh">More than 1Lakh</option>
+          <option value="More than 4Lakhs">More than 4Lakhs</option>
+          <option value="More than 10Lakhs">More than 10Lakhs</option>
+          <option value="Less than 50k">Less than 50k</option>
+        </select>
+        <br />
+        <br />
+        <label>If You are students belong which class:</label>
+        <select>
+          <option value="Select">Select</option>
+          <option value="12th pass">12th pass</option>
+          <option value="Graduation pass">Graduation pass</option>
+          <option value="Post-Graduation pass">Post-Graduation pass</option>
+          <option value="Diploma pass">Diploma</option>
+        </select>
+        <br />
+        <br />
+        <label>Select their salery</label>
+        <select>
+          <option value="Salery">Salery</option>
+          <option value="above 10k">above 10k</option>
+          <option value="above 20k">above 20k</option>
+          <option value="above 30k">above 30k</option>
+          <option value="below 50k">below 50k</option>
+        </select>
+        <br />
+        <br />
+        <label>If You are other</label>
+        <select>
+          <option value="Select">Select</option>
+          <option value="Pattri vale">Pattri vale</option>
+          <option value="Rehari vale">Rehri vale</option>
+          <option value="etc..">etc..</option>
+        </select>
+        <br />
+        <br />
+        <label>Select their salery</label>
+        <select>
+          <option value="Salery">Salery</option>
+          <option value="above 10k">above 10k</option>
+          <option value="above 20k">above 20k</option>
+          <option value="above 30k">above 30k</option>
+          <option value="below 50k">below 50k</option>
+        </select>
+        <br />
+        <br />
+        <input type="submit" name="submit" value="submit" />
+        <input type="submit" name="clear" value="clear" />
+      </fieldset>
+    </div>
+  </body>
 </html>
